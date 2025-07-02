@@ -17,6 +17,20 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+div#msg{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+section img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
 footer{
     color: white;
     text-align: center;
