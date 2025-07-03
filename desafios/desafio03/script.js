@@ -4,7 +4,7 @@ function contador(){
     let pas = document.querySelector("input#pas");
     let res = document.querySelector("div#res");
 
-    if(ini.value.length == 0){
+    if(ini.value.length == 0 || fim.value.length == 0 || pas.value.length == 0){
         alert("[ERRO] Verifique se não há um dado faltando");
     }else{
         let i = Number(ini.value);
