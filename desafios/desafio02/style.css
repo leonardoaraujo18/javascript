@@ -17,19 +17,6 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
-div > p#res{
-    text-align: center;
-    font-weight: bold;
-}
-
-div img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-}
-
 footer{
     color: white;
     text-align: center;
