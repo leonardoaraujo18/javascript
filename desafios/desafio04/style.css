@@ -17,6 +17,22 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+select{
+    background-color: gray;
+    display: block;
+    margin-left: 70px;
+    width: 200px;
+    overflow: auto;
+}
+
+option{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
 footer{
     color: white;
     text-align: center;
