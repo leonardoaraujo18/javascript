@@ -15,7 +15,7 @@ function contador(){
             alert("Passo inválido! Considerando PASSO 1.");
             p = 1;
         }
-        res.innerHTML = "Contando..."
+        res.innerHTML = `Contando... <br>`
 
         if(i < f){ //ORDEM CRESCENTE
             for(let c = i; c <= f; c+= p){
