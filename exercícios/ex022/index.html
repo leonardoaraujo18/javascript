@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de tempo</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button{
+            height: 100px;
+            width: 150px;
+            color: white;
+        }
+
+        button.start{
+            background-color: green;
+        }
+
+        button.stop{
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Controle de Tempo</h1>
+    <h2 id="tempo">0</h2>
+    <button class="start" onclick="ativarContagem()">Ativar Contagem</button>
+    <button class="stop" onclick="pararContagem()">Parar Contagem</button>
+    
+<script src="script.js"></script>
+</body>
+</html>
